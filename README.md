@@ -29,6 +29,8 @@ The research employs Natural Language Processing (NLP) techniques to achieve its
 
 Additionally, the research uses Python and Jupyter Notebook for data analysis and processing. Key libraries such as NLTK, Sentence-Transformers, and PKE play a significant role in supporting data preprocessing, embedding generation, and keyword extraction. Data is collected from public social media accounts, and the study uses approximately 300 user profiles and 9,000 posts from both Facebook and Instagram for analysis.
 
+![alt text](images/plan.png)
+
 ## 4. Results
 
 The study reveals significant differences in the effectiveness of the three methods for user identification:
@@ -37,9 +39,11 @@ The study reveals significant differences in the effectiveness of the three meth
 
 - **Word Embedding with Cosine Similarity:** This method proved to be highly effective, achieving 92% accuracy using the GTE-base model and 91% accuracy with the E5-small-v2 model. The high accuracy of this method demonstrates that analyzing the semantic content of user posts is a far more reliable approach for identifying users across platforms. Users tend to post similar content across their accounts, even if the wording or formatting differs slightly.
 
-- **Keyword Extraction with Cosine Similarity:** Similarly, this method achieved 92% accuracy using PositionRank and 90.67% accuracy using YAKE!. The ability to identify key topics and compare them across platforms highlights the importance of topic-based identification in understanding users’ interests and behaviors.
+- **Keyword Extraction with Cosine Similarity:** Similarly, this method achieved 92.33% accuracy using PositionRank and 90.67% accuracy using YAKE!. The ability to identify key topics and compare them across platforms highlights the importance of topic-based identification in understanding users’ interests and behaviors.
 
 The high accuracy rates for the content-based methods (word embedding and keyword extraction) show that analyzing the content of user posts provides a strong foundation for identifying users across platforms. The study concludes that while account names may vary, users' interests and behaviors remain consistent across platforms, making content-based methods more reliable for identification.
+
+![alt text](images/results.png)
 
 ## 5. Conclusion
 
@@ -47,19 +51,25 @@ The research concludes that content-based identification methods—such as word 
 
 The study also suggests that future research could improve user identification by collecting more comprehensive data over a longer period. Tracking users' behavior and interests over time could help identify patterns of change and improve the accuracy of identification algorithms. Additionally, incorporating factors like geographical location, posting time, and language differences could further enhance the reliability of user identification across platforms.
 
-## 6. Apply in Jobs Recommendation
+## 6. Apply in Jobs and Books Recommendation
+
+### Plan
+
+![alt text](images/apply_plan.png)
+
+### Jobs Recommendation
 
 - **Understanding User Interests and Skills:** By analyzing user-generated content across platforms like Facebook and Instagram, the system can build a detailed profile of the user’s skills, experiences, and interests. For example, posts that mention job-related activities, discussions about work experiences, or engagement in certain fields (e.g., software development, design, management) can help the system identify the user’s professional background.
 
 - **Matching Job Opportunities:** Using word embedding with cosine similarity, the system compares the content of a user's posts and their profile information to job descriptions available on job platforms such as LinkedIn. For instance, if a user frequently posts about programming languages or software projects, the system can match them to job opportunities in software development. The system evaluates the semantic similarity between the user's posts and the job descriptions to recommend the most relevant job listings.
 
-## 7. Apply in Jobs Recommendation
+### Books Recommendation
 
 - **Identifying Reading Preferences:** By analyzing the topics a user frequently discusses across social media platforms (using keyword extraction), the system can identify the user’s reading preferences. For instance, if a user often posts about business strategies, entrepreneurship, or self-help topics, the system can infer that they are likely interested in books within those genres.
 
 - **Matching Books to User Interests:** Using word embedding with cosine similarity, the system can compare the user’s content to book summaries, reviews, and descriptions. For example, if a user shares content related to technology and innovation, the system can recommend books that align with those interests, such as recent publications on artificial intelligence, startups, or tech trends. The system ensures that recommended books are semantically related to the topics the user engages with on social media.
 
-## 8. Deploy Application Website
+## 7. Deploy Application Website
 
 ### The Interface
 
@@ -79,3 +89,15 @@ The study also suggests that future research could improve user identification b
 ![alt text](images/job-after.png)
 
 ![alt text](images/book-after.png)
+
+## 8. How to set up this project
+
+### Run in localhost
+- **Step 1:** Unpack e5_small.rar
+- **Step 2:** Run application.py
+
+### Website
+
+Scan this QR code to visit my website
+
+![alt text](images/qr.png)
