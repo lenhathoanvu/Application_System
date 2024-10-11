@@ -1,12 +1,22 @@
-# User Identification
+# USER IDENTIFICATION
 
-## 1. Introduction
+![alt text](images/poster.png)
+
+## 1. My Team
+
+- Nguyen Anh Tuan
+- Thai Bao An
+- Le Nhat Hoan Vu
+- Dao Viet Cuong
+- Nguyen Hoang Hai
+
+## 2. Introduction
 
 Social media platforms have become integral to daily life, particularly in the post-COVID-19 era, where digital interaction has expanded significantly. Platforms like Facebook and Instagram store vast amounts of user data, including personal information, interests, and behaviors. However, users often maintain multiple accounts on different platforms, which creates a challenge in identifying whether these accounts belong to the same person. Addressing this challenge is crucial for building unified user profiles that have wide-ranging practical applications, such as expert profiling, item recommendations (on platforms like Shopee, Lazada, Tiki, and Netflix), online marketing, user clustering, and personalized job matching (on platforms like LinkedIn).
 
 The study explores how user identification can improve search efficiency within professional networks, enhance product recommendations, optimize targeted marketing strategies, and facilitate the clustering of users into groups based on shared interests. The introduction also discusses the practical applications of this identification process in expert profiling, where user profiles can help with tasks like locating specialists in specific fields or recommending research collaborators.
 
-## 2. Research Objectives
+## 3. Research Objectives
 
 The primary objective of the research is to develop a set of methods that effectively identify users across different social media platforms, particularly Facebook and Instagram. The study aims to:
 
@@ -18,7 +28,7 @@ The primary objective of the research is to develop a set of methods that effect
 
 - **Evaluate Model Effectiveness:** Assess the performance of different models and algorithms in identifying users across platforms and optimize their accuracy through iterative improvements. The study also explores how these models can be applied in real-world scenarios, such as improving personalized recommendations and detecting fake or duplicate accounts.
 
-## 3. Methodology
+## 4. Methodology
 The research employs Natural Language Processing (NLP) techniques to achieve its objectives, with the three primary methods being:
 
 - **EDIT-distance (Levenshtein Distance):** This method is used to calculate the number of operations required to transform one string into another. It is particularly useful for comparing account names across platforms, determining whether small variations in account names are due to user error or intentional modifications. However, the study finds that this method has limited accuracy in identifying users due to the diversity of account names across platforms.
@@ -31,7 +41,7 @@ Additionally, the research uses Python and Jupyter Notebook for data analysis an
 
 ![alt text](images/plan.png)
 
-## 4. Results
+## 5. Results
 
 The study reveals significant differences in the effectiveness of the three methods for user identification:
 
@@ -45,13 +55,13 @@ The high accuracy rates for the content-based methods (word embedding and keywor
 
 ![alt text](images/results.png)
 
-## 5. Conclusion
+## 6. Conclusion
 
 The research concludes that content-based identification methods—such as word embedding with cosine similarity and keyword extraction with cosine similarity are significantly more effective than name-based methods (EDIT-distance). The high accuracy of the content-based methods demonstrates that users' posts across platforms often reflect their consistent interests and behaviors, even if the specific wording or format varies. This consistency allows for more reliable user identification and provides a foundation for building personalized recommendation systems.
 
 The study also suggests that future research could improve user identification by collecting more comprehensive data over a longer period. Tracking users' behavior and interests over time could help identify patterns of change and improve the accuracy of identification algorithms. Additionally, incorporating factors like geographical location, posting time, and language differences could further enhance the reliability of user identification across platforms.
 
-## 6. Apply in Jobs and Books Recommendation
+## 7. Apply in Jobs and Books Recommendation
 
 ### Plan
 
@@ -69,7 +79,7 @@ The study also suggests that future research could improve user identification b
 
 - **Matching Books to User Interests:** Using word embedding with cosine similarity, the system can compare the user’s content to book summaries, reviews, and descriptions. For example, if a user shares content related to technology and innovation, the system can recommend books that align with those interests, such as recent publications on artificial intelligence, startups, or tech trends. The system ensures that recommended books are semantically related to the topics the user engages with on social media.
 
-## 7. Deploy Application Website
+## 8. Deploy Application Website
 
 ### The Interface
 
