@@ -110,4 +110,4 @@ The study also suggests that future research could improve user identification b
 
 Scan this QR code to visit my website
 
-![alt text](images/qr.png)# Application_System
+![alt text](images/qr.png) # Application_System
